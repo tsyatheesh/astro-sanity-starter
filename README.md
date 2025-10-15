@@ -1,116 +1,98 @@
-# Astro Netlify Sanity Starter
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUMERIK LLC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #111;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      background: #f4f4f4;
+      margin: 10px 0;
+      padding: 15px;
+      border-left: 5px solid #000;
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NUMERIK LLC</h1>
+    <p>Innovating Intelligence. Empowering Business.</p>
+  </header>
 
-![Astro Netlify Sanity Starter](https://assets.stackbit.com/docs/astro-sanity-starter-thumb.jpg)
+  <section>
+    <h2>About Us</h2>
+    <p>NUMERIK LLC is a technology-driven company based in New Jersey, dedicated to designing, developing, marketing, and supporting software, web, and mobile applications. We specialize in providing AI, data, cloud, consulting, training, e-commerce, and digital marketing services, empowering businesses to achieve digital transformation.</p>
+  </section>
 
-[Live Demo](https://astro-sanity-starter-demo.netlify.app/)
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Software, Web & Mobile App Development</li>
+      <li>AI & Data Engineering Solutions</li>
+      <li>Cloud & Consulting Services</li>
+      <li>IT Training & Advisory</li>
+      <li>E-Commerce & Digital Marketing</li>
+    </ul>
+  </section>
 
-Netlify Astro and Sanity minimal starter with [visual editing](https://docs.netlify.com/visual-editor/overview/).
+  <section>
+    <h2>Contact Us</h2>
+    <p>📍 971 US HIGHWAY 202N, SUITE N, BRANCHBURG, NEW JERSEY 08876</p>
+    <p>📧 <a href="mailto:yatheeshroyal@gmail.com">yatheeshroyal@gmail.com</a></p>
+  </section>
 
-| Prerequisites                                                                |
-| :--------------------------------------------------------------------------- |
-| [Node.js](https://nodejs.org/) v20.+                                         |
-| (optional) [nvm](https://github.com/nvm-sh/nvm) for Node version management. |
-
-## Getting Started
-
-Create local project from this repo and run:
-
-```txt
-npm install
-```
-
-### Sign Into Sanity
-
-If you are not already signed into Sanity via the CLI, install the CLI package and then run the login command.
-
-```txt
-npm install -g @sanity/cli
-sanity login
-```
-
-This will open a browser and walk you through the authentication process.
-
-### Import Content
-
-Once authenticated, you'll be able to create a Sanity project and import content.
-
-```txt
-npm run create-project
-```
-
-_Note: You may want to sign into Sanity in the browser and rename your project._
-
-Once the project exists and you've set the environment variables, you can import the content.
-
-```txt
-npm run import {projectId}
-```
-
-Replace `{projectId}` with the project ID output from the previous command.
-
-### Store Sanity Values
-
-Sign into Sanity to create an editor token, navigate to the following address (replace the `SANITY_PROJECT_ID` with your project ID) `https://www.sanity.io/manage/personal/project/SANITY_PROJECT_ID/api#tokens`. Then create `.env` file in you repo, copy & paste the following environment variables into the file and set their values.
-
-```txt
-SANITY_PROJECT_ID="..."
-SANITY_DATASET="..."
-SANITY_TOKEN="..."
-```
-
-### Run Sanity Studio
-
-Sanity Studio code exists for this project in the `studio` directory. First, install the dependencies in this directory.
-
-```txt
-cd studio
-npm install
-```
-
-Then create a `.env` file in the `studio` directory with the following environment variables and set their values:
-
-```txt
-SANITY_STUDIO_PROJECT_ID="..."
-SANITY_STUDIO_DATASET="..."
-```
-
-Then run the studio locally.
-
-```txt
-sanity dev
-```
-
-If you want to see the content, you can open your browser and navigate to localhost:3333.
-
-### Start Development Server
-
-Then you can run the Astro.js development server in root directory:
-
-```txt
-npm run dev
-```
-
-Install Netlify Visual Editor CLI:
-
-```txt
-npm install -g @stackbit/cli
-```
-
-And the Stackbit development server.
-
-```txt
-stackbit dev
-```
-
-This outputs your own Netlify Visual Editor URL. Open this, register or sign in, and you will be directed to Netlify Visual Editor for your new project.
-
-## Next Steps
-
-Here are a few suggestions on what to do next if you're new to Netlify Visual Editor:
-
-- Learn [how Netlify Visual Editor works](https://docs.netlify.com/visual-editor/concepts/how-visual-editor-works/)
-- Check [Netlify Visual Editor reference documentation](https://visual-editor-reference.netlify.com/)
-
-## Support
-
-If you get stuck along the way, get help in our [support forums](https://answers.netlify.com/).
+  <footer>
+    <p>&copy; 2025 NUMERIK LLC. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
